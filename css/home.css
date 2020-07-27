@@ -1,0 +1,84 @@
+body{
+   margin: 0;
+}
+#contact-heading{
+    color: rgb(83, 83, 83);
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5rem;
+}
+
+#contacts-list-container{
+    margin: 1% 36% ;
+}
+
+#contacts-list-container ul{
+    padding: 0;
+    list-style: none;
+}
+
+.contact{
+    padding: 3px 10px;
+    border: 1px solid rgb(216, 208, 208);
+    background-color: rgb(141, 88, 57);
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+
+}
+
+.contact:hover{
+    background-color: rgb(60, 62, 197);
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.contact .delete-button{
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact .delete-button a{
+    color: white;
+    background-color: red;
+}
+
+.contact p{
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+
+.details{
+    font-size: 1.5rem;
+}
+
+#new-contact-form {
+    text-align: center;
+    border: none;
+}
+
+#new-contact-form button{
+    color: white;
+    background-color:grey;
+    font-weight: 2rem;
+    border: none;
+    padding: 0.5rem 2rem ;
+    font-size: 1.2rem;
+}
+
+#new-contact-form input{
+   
+ 
+    border-left: 0;
+    border-right: 0;
+    border-top:1rem rgb(168, 156, 156);
+    font-size:0.8 em;
+}
